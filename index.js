@@ -118,8 +118,8 @@ Seja simpática, objetiva e profissional nas respostas.
 
     res.json({ resposta: resposta.trim() });
   } catch (error) {
-    console.error('Erro ao gerar resposta:', error);
-    res.status(500).json({ error: 'Erro ao gerar resposta com Gemini' });
+    console.error('Erro ao gerar resposta:');
+    res.status(500).json({ error: 'Erro ao gerar resposta da qisa' });
   }
 });
 
